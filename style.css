@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sort {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #111;
+  color: #f1f1f1;
+  padding: 60px;
+  text-transform: uppercase;
+}
+.sort h1 {
+  font-size: xx-large;
+}
+
+.sort button {
+  height: 50px;
+  width: 150px;
+  margin: 20px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  border: none;
+  font-size: large;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #ffcf4a;
+  cursor: pointer;
+}
+.product-img {
+  max-width: 240px;
+}
+
+.product__content {
+  width: auto;
+  background-color: #fff;
+  margin: 30px 0;
+  text-align: center;
+}
